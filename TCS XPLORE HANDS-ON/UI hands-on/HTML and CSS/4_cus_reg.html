@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Registration</title>
+</head>
+<body>
+    <h1>Customer Registration</h1>
+    <form name="registerCustomer" id="registerCustomer">
+        <label for="customerId">Customer ID:</label>
+        <input type="text" id="customerId" name="customerId" maxlength="6" required><br><br>
+
+        <label for="customerName">Customer Name:</label>
+        <input type="text" id="customerName" name="customerName" required><br><br>
+
+        <label for="city">City:</label>
+        <select id="city" name="city">
+            <option value="Chennai">Chennai</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Trivandrum">Trivandrum</option>
+        </select><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label><br><br>
+
+        <input type="submit" name="create" value="Create">
+        <input type="reset" name="cancel" value="Cancel">
+    </form>
+</body>
+</html>

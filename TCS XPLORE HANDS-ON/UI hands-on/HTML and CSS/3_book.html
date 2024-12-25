@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Book</title>
+</head>
+<body>
+    <h2>Add Book</h2>
+    <form name="addBook">
+        <label for="bookId">Book Id:</label>
+        <input type="text" id="bookId" name="bookId"><br><br>
+
+        <label for="bookName">Book Name:</label>
+        <input type="text" id="bookName" name="bookName"><br><br>
+
+        <label for="category">Category:</label>
+        <select id="category" name="category">
+            <option value="Action">Action</option>
+            <option value="Drama">Drama</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Childrens">Childrens</option>
+        </select><br><br>
+
+        <label>Availability:</label>
+        <input type="radio" id="available" name="availability" value="Available">
+        <label for="available">Available</label>
+        <input type="radio" id="notAvailable" name="availability" value="Not Available">
+        <label for="notAvailable">Not Available</label><br><br>
+
+        <input type="submit" name="add" value="Add" style="background-color: #2345E4; color: white;">
+        <input type="reset" name="cancel" value="Cancel" style="background-color: #2345E4; color: white;">
+    </form>
+</body>
+</html>
